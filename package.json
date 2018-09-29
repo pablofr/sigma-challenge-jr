@@ -1,0 +1,32 @@
+{
+  "name": "sigma-challenge-jr",
+  "version": "1.0.0",
+  "description": "Bem-vindo ao processo seletivo para desenvolvedor Frontend Junior do TJMT/Sigma!",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --progress --colors --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablofr/sigma-challenge-jr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablofr/sigma-challenge-jr/issues"
+  },
+  "homepage": "https://github.com/pablofr/sigma-challenge-jr#readme"
+}
