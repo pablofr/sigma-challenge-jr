@@ -45,8 +45,8 @@ export default class Test extends Component {
                         
                             {candidatos.map((candidato, index) => {
                                 return (
-                                    <tbody>
-                                    <tr key={candidato.id}>
+                                    <tbody key={candidato.id}>
+                                    <tr >
                                         <th scope="row">{index}</th>
                                         <td>{candidato.nomeUrna}</td>
                                         <td>{candidato.numero}</td>
@@ -54,7 +54,7 @@ export default class Test extends Component {
                                     </tr>
                                     </tbody>
                                 )
-                            })};
+                            })}
                         
                     </table>
                 </div>
