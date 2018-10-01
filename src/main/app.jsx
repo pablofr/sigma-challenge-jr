@@ -1,7 +1,10 @@
 import React from 'react'
+import Test from './test'
 
 export default props => (
-    <div>
-        <h1>Candidatos Eleições 2018</h1>
+    
+    <div className="container">
+        <Test />
     </div>
+    
 )
